@@ -68,9 +68,9 @@ O código foi estruturado seguindo boas práticas de projeto orientado a objetos
 - Garante que mudanças no banco de dados ou nas consultas SQL não afetem a lógica dos controladores nem a interface do usuário.
 
 ### 3. Factory Method (`DAOFactory`)
-- A interface `DAOFactory` centraliza a instanciação dos DAOs (`createTurmaDAO()` e `createAlunoDAO()`), injetando a conexão gerenciada pela classe utilitária `DB`.
+- A interface `DAOFactory` centraliza a instanciação dos DAOs (`createTurmaDAO()` e `createAlunoDAO()`), injetando a conexão gerenciada pela classe utilitária `DataBase`.
 
-### 4. Gerenciamento de Conexão (`DB`)
+### 4. Gerenciamento de Conexão (`DataBase`)
 - Classe utilitária com métodos estáticos para obtenção de conexão única (`getConnection`) e fechamento seguro de recursos do JDBC (`Connection`, `PreparedStatement` e `ResultSet`), prevenindo vazamento de conexões.
 
 ---
