@@ -35,5 +35,9 @@ build/
 ### VS Code ###
 .vscode/
 
+### Configurações locais e credenciais ###
+db.properties
+.env
+
 ### Mac OS ###
 .DS_Store
