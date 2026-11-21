@@ -201,3 +201,9 @@ Este projeto foi construído com fins didáticos, consolidando o aprendizado pr�
 - **Acesso a Banco Relacional:** Uso de JDBC puro (`PreparedStatement`, tratamento de SQL Injection, mapeamento relacional/objeto e controle de transações e fechamento de conexões).
 - **Tratamento de Dados Especiais no BD:** Manipulação de tipos de data com `java.time.LocalDate` e armazenamento binário (`byte[]`) para fotos via `BLOB`.
 - **Interfaces Ricas (Desktop GUI):** Ciclo de vida de aplicações JavaFX, manipulação de eventos e uso do padrão declarativo FXML.
+
+## Créditos e Agradecimentos
+
+Este projeto foi desenvolvido com base nos ensinamentos e na estrutura inicial proposta em aula:
+
+- **Professor Marciano** – Idealização do projeto, arquitetura base (MVC/DAO) e orientação técnica.  
